@@ -1,2 +1,7 @@
-# googleFormsHttpRequest
-How to respond Google forms via post and ajax
+# How to respond Google forms via ajax
+
+* Check google form [here](https://goo.gl/tc7hkF).
+* Check google form answers [here](https://goo.gl/VXMdV5).
+* Check my blog post about this code [here](https://goo.gl/ayVvfS).
+
+

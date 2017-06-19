@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Fill google form via ajax</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Fill google form via ajax</h1>
+    <div id="feedback"></div>
+    <form method="post" id="contact-form">
+       <div class="form-group">
+        <label>Name: *</label>
+        <input type="text" class="form-control" id="form-name" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <label>Email: *</label>
+        <input type="text" class="form-control" id="form-email" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label>Phone:</label>
+        <input type="text" class="form-control" id="form-phone" placeholder="Phone">
+      </div>
+      <div class="form-group">
+        <label>Message:</label>
+        <textarea type="text" class="form-control" id="form-message" placeholder="Message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-default">
+         Send message
+      </button>
+      <br>
+      <br>
+      <br>
+      <p>Check google form <a href="https://goo.gl/tc7hkF" target="_blank">here</a>.</p>
+      <p>Check google form answers <a href="https://goo.gl/VXMdV5" target="_blank">here</a>.</p>
+      <p>Check my blog post about this code <a href="https://goo.gl/ayVvfS" target="_blank">here</a>.</p>
+    </form>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
